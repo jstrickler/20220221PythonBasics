@@ -1,0 +1,15 @@
+
+open old file for reading
+open new file for writing
+for every line in old file
+    if line startswith 'p'
+       write line to new file
+
+with open('fruits.txt') as fruits_in:
+    with open('pfruits.txt', 'w') as fruits_out:
+        for line in fruits_in:
+           if line.startswith('p'):
+                fruits_out.write(line)
+
+
+Business Logic vs Display Logic 

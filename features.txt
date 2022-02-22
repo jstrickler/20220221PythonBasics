@@ -1,0 +1,11 @@
+syntax highlighting
+debugging
+autocomplete
+run script without leaving editor and debug if necessary
+macros (snippets that expand)
+project management
+git integration (or other SCC)
+run external programs
+update Python and install modules
+fancy viewing (multiple windows/buffers, etc)
+smart search & replace

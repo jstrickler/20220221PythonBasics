@@ -10,8 +10,7 @@ while True:
 
     if answer == "q":
         break
-
-    if answer == "h":
+    elif answer == "h":
         max_value = guess
     elif answer == "l":
         min_value = guess

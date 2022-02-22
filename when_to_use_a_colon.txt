@@ -1,0 +1,32 @@
+
+Use a colon for all BLOCK statements
+
+if COND:
+   pass
+elif COND:
+   pass
+else:
+   pass
+
+while COND:
+   pass
+
+for VAR in ITERABLE:
+   pass
+
+def FUNCTION():
+   pass
+
+class CLASSNAME:
+   pass
+
+try:
+   pass
+except EXCEPTION:
+   pass
+
+with EXPR as VAR:
+   pass
+
+
+states = {'HA': 'Hawaii', 'NC': 'North Carolina'}
