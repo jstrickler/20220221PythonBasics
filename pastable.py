@@ -52,3 +52,8 @@ colors = ['red', 'green', 'purple', 'orange', 'brown',
 
 
 
+POMEGRANATE
+PAPAYA
+PEAR
+PERSIMMON
+PEACH
