@@ -1,0 +1,86 @@
+
+
+AAAAAAAAAAAA
+
+
+pat         "WII-compatible game"    "Let's pat the bunny"
+           "I am a patron of the arts" "plant a petunia"
+            "The potato is mashed"
+            "the pit is lined with shag carpet"
+
+p[aeiou]t
+
+gma[io]l\.com
+
+p[a-z]t    "keep to the right"    "pst"
+
+p.t
+
+p\.t
+
+p[^aeiou]t
+
+[0123456789][0123456789][0123456789]-[0123456789][0123456789]-[0123456789][0123456789][0123456789][0123456789]
+
+[0-9][0-9][0-9]-[0-9][0-9]-[0-9][0-9][0-9][0-9]
+
+\d\d\d-\d\d-\d\d\d\d
+
+\d  [0-9]
+\s  [ \t\n\r\f\b]
+\w  [a-zA-Z0-9_]
+
+p\wt
+
+pa+t   pat paat paaaaaaaaaaaaaaaaaaaaaaaaaaaaaat
+p[aeiou]+t   pot  peat  poet  pooooooaaaaaaaaeeeeeoooouuuaaat
+
+pa*t  pt
+p[aeiou]*t  pt
+
+p[aeiou]{2,}t
+p[aeiou]{1,2}t
+p[aeiou]{2}t
+
+\d{3}-\d{2}-\d{4}
+
+^spam
+
+ham$
+
+^toast$
+
+^\d+$
+^\s*\d+\s*$
+
+
+s = "the therapist said it's time to bathe the athelete"
+
+\bthe\b
+
+\bthe
+
+MULTILINE
+
+
+
+foo.*bar
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,5 +1,4 @@
 #!/usr/bin/env python
-
 import re
 
 s = """lorem ipsum M-302 dolor sit amet, consectetur r-99 adipiscing elit, sed do
@@ -16,10 +15,10 @@ if re.search(pattern, s):  # <2>
     print("Found pattern.")
 print()
 
-m = re.search(pattern, s)  # <3>
+m = re.search(pattern, s)  # <3>  m is a match obj
 print(m)
 if m:
-    print("Found:", m.group(0))  # <4>
+    print("Found:", m.group())  # <4>  # or m.group(0)
 print()
 
 for m in re.finditer(pattern, s):  # <5>
@@ -28,3 +27,6 @@ print()
 
 matches = re.findall(pattern, s)  # <6>
 print("matches:", matches)
+
+# re.match(pattern, s)       ^pattern
+# re.fullmatch(pattern, s)   ^pattern$
